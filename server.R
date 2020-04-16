@@ -6,7 +6,7 @@
 # At the top of the R file, before shinyServer()
 
 source("helpers.R") 
-counties <- readRDS("data/counties.rds")
+counties <- readRDS("counties.rds")
 library(maps) 
 library(mapproj)
 
